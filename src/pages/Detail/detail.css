@@ -1,0 +1,147 @@
+.detail{
+    overflow: hidden;
+}
+.header{
+    overflow: hidden;
+ 
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.homeTop{
+    background: #4ebf60;
+}
+.header h1{
+    font-size: 24px;
+    line-height: 32px;
+    word-break: break-all;
+    padding:0.4rem  0.4rem;
+    background: #4ebf60;
+}
+.header-top{
+    background: #4ebf60;
+    display: flex;
+    flex-direction: row; 
+    padding: 0.34rem;
+}
+.header-top .jie{
+    font-size: 0.3rem;
+    padding-top: 0.3rem;
+}
+.header-top .left{
+
+}
+.header-top .right{
+    width: 4.8rem;
+    margin-left: .2rem;
+}
+.header-top .right img{
+    width: 100%;
+}
+/* 所属评到 */
+#channel_tags{
+    margin-bottom: 30px;
+    padding: 0.2rem 0.4rem;
+}
+#channel_tags h2{
+    color: #aaa;
+    margin: 0 0 15px;
+    font-size: 15px;
+}
+.channel_tag {
+    background-color: #effaf0;
+    border: 1px solid #42bd56;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 13px;
+    padding: 4px 6px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    color:#4ebf60;
+    text-align: center;
+}
+/* 简介 */
+.subject-intro{
+    padding: 0.2rem 0.4rem;
+
+}
+.subject-intro h2{
+    color: #aaa;
+    margin: 0 0 15px;
+    font-size: 15px;
+}
+.subject-intro div{
+    font-size: 15px;
+    color: #494949;
+    line-height: 22px;
+    word-wrap: break-word;
+}
+/* 影人 */
+#celebrities{
+    padding: 0.2rem 0.4rem;
+
+}
+#celebrities h2{
+    color: #aaa;
+    margin: 0 0 15px;
+    font-size: 15px;
+}
+.row.items{
+    font-size: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.item__celebrity{
+    font-size: 14px;
+    width: 1.8rem;
+    display: inline-block;
+}
+.item__celebrity p{
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #494949;
+    margin-top: 8px;
+}
+
+/* 喜欢和不喜欢 */
+.like_list {
+    width: 80%;
+    margin: .5rem auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+}
+.like_list .like {
+    width: 50%;
+    text-align: center;
+    border: 1px solid #4ebf60;
+    margin: 0 .3rem;
+    border-radius: 8px;
+    padding: .1rem 0;
+    color: #4ebf60;
+    font-size: 14px;
+}
+.like_list .like:active{
+    background: #4ebf60;
+    color: #fff;
+}
+
+.like.like_active{
+    background: #4ebf60;
+    color: #fff;
+
+}
+/* 按钮禁止 */
+.like.likeDisable{
+    background: #f5f5f5;
+    color: #4ebf60;
+}
+.like.likeDisable:active{
+    background: #f5f5f5;
+    color: #4ebf60;
+}

@@ -1,0 +1,45 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  z-index: 9999;
+  border-top: 1px solid #a09898;
+}
+
+.footer a {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.05rem 0;
+  text-decoration: none;
+}
+
+.footer a:active {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.footer a span {
+  color: #333;
+  font-size: .24rem;
+}
+
+.footer .icon-tubiaozhizuomoban,
+.footer .icon-iconfuzhi {
+  font-size: .6rem;
+  color: #333;
+}
+
+.footer .active i,
+.footer .active span {
+  color: #4ebf60 !important;
+}
