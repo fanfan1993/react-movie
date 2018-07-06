@@ -1,8 +1,8 @@
 
 ## 技术栈
-用到react + react-router + redux + axios+ async+ 阿里字体图标
+   react + react-router + redux + axios+ async+ 阿里字体图标
 <br>
-没有去阿里部署，所以用的是豆瓣api
+由于没有去阿里部署，所以用的是豆瓣api。
 
 ## 参与开发
 <br>
@@ -10,6 +10,13 @@
 <br>
 
 ## 运行
+```
+  - npm install  
+  
+  - npm start (运行项目)
+
+  - npm run build (打包项目)
+  ```
 ## Table of Contents
 
   - [npm start](#npm-start)
@@ -17,14 +24,6 @@
   - [npm run build](#npm-run-build)
   - [npm run eject](#npm-run-eject)
   
-git clone https://github.com/wclimb/react-movie.git
-
-npm install  
-
-npm start (运行项目)
-
-npm run build (打包项目)
-
 
   ## 页面目录
 After creation, your project should look like this:
@@ -48,6 +47,7 @@ my-app/
 ## 页面效果
 ##### 页面显示
 ![screenshot](./screenshot/1.png)
+
 ![screenshot](./screenshot/2.png)
 
 
