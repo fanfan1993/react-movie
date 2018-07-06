@@ -11,21 +11,14 @@
 
 ## 运行
 ```
-  - npm install  
+   npm install  
   
-  - npm start (运行项目)
+   npm start (运行项目)
 
-  - npm run build (打包项目)
+   npm run build (打包项目)
   ```
-## Table of Contents
 
-  - [npm start](#npm-start)
-  - [npm test](#npm-test)
-  - [npm run build](#npm-run-build)
-  - [npm run eject](#npm-run-eject)
-  
-
-  ## 页面目录
+## 页面目录
 After creation, your project should look like this:
 
 ```
